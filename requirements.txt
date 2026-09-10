@@ -1,0 +1,12 @@
+# Optional dependencies for non-SQLite databases.
+# SQLAlchemy is required for all non-SQLite databases; uncomment it
+# along with the driver for your database:
+
+# SQLAlchemy (required for PostgreSQL, MySQL, and other non-SQLite databases)
+# sqlalchemy>=2.0
+
+# PostgreSQL driver
+# psycopg2-binary>=2.9
+
+# MySQL / MariaDB driver
+# mysqlclient>=2.1
